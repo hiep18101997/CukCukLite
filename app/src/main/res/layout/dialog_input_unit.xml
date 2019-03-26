@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/FontBodyTextRegular"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="Thêm đơn vị tính"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/image_margin_end"
+            android:tint="@color/white"
+            android:id="@+id/ivClose"
+            app:srcCompat="@drawable/ic_remove" />
+    </LinearLayout>
+
+    <EditText
+        style="@style/FontBodyTextRegular"
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Nhập đơn vị tính"
+        android:paddingStart="16dp"
+        android:paddingTop="@dimen/edt_padding"
+        android:paddingBottom="@dimen/edt_padding" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="@dimen/tv_save_w"
+            android:layout_height="@dimen/tv_save_h"
+            android:id="@+id/tvCancel"
+            style="@style/FontBodyTextOverline"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_cancel" />
+
+        <Space
+            android:layout_width="@dimen/space_button"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="@dimen/tv_save_w"
+            android:id="@+id/tvSave"
+            style="@style/FontBodyTextOverline"
+            android:text="@string/save"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_height="@dimen/tv_save_h"
+            android:background="@drawable/bg_btn_save" />
+    </LinearLayout>
+</LinearLayout>

@@ -5,5 +5,6 @@ interface IMenuContract {
     }
 
     interface IPresenter {
+        void getAllDish();
     }
 }

@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="font_title_header">20sp</dimen>
+    <dimen name="font_subtile_header1">16sp</dimen>
+    <dimen name="font_subtile_header2">14sp</dimen>
+    <dimen name="font_body_title">16sp</dimen>
+    <dimen name="font_body_text">14sp</dimen>
+    <dimen name="font_button">14sp</dimen>
+    <dimen name="font_caption">12sp</dimen>
+    <dimen name="font_overline">10sp</dimen>
+
+    <dimen name="margin_padding_default">16dp</dimen>
+    <dimen name="button_min_height">36dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+    <dimen name="padding_splash">40dp</dimen>
+    <dimen name="margin_padding_haft">8dp</dimen>
+
+    <dimen name="circle_size">48dip</dimen>
+    <dimen name="image_circle_size">36dip</dimen>
+    <dimen name="margin_padding_vertical_tiny">2dp</dimen>
+    <dimen name="image_margin_start">8dp</dimen>
+    <dimen name="image_margin_top">8dp</dimen>
+    <dimen name="image_margin_bot">8dp</dimen>
+    <dimen name="tv_margin_start">8dp</dimen>
+    <dimen name="tv_margin_top">8dp</dimen>
+    <dimen name="image_margin_end">8dp</dimen>
+    <dimen name="image_detail_w">18dp</dimen>
+    <dimen name="image_detail_h">18dp</dimen>
+    <dimen name="tv_state_margin_start">24dp</dimen>
+    <dimen name="tv_state_margin_bot">8dp</dimen>
+    <dimen name="tv_state_padding_start">6dp</dimen>
+    <dimen name="tv_state_padding_end">6dp</dimen>
+    <dimen name="tv_margin_bot">8dp</dimen>
+    <dimen name="tv_state_padding_bot">2dp</dimen>
+    <dimen name="tv_state_padding_top">2dp</dimen>
+    <dimen name="tv_margin_end">8dp</dimen>
+    <dimen name="margin_normal_small">5dp</dimen>
+    <dimen name="margin_medium_small">10dip</dimen>
+    <dimen name="font_size_large_small">23sp</dimen>
+    <dimen name="height_keyboard_payment">50dp</dimen>
+    <dimen name="rv_icon_h">350dp</dimen>
+    <dimen name="tv_cancel_h">50dp</dimen>
+    <dimen name="tv_cancel_margin_end">16dp</dimen>
+    <dimen name="btn_save_margin">8dp</dimen>
+    <dimen name="line_thick">1dp</dimen>
+    <dimen name="ln_height">56dp</dimen>
+    <dimen name="btn_save_h">56dp</dimen>
+    <dimen name="rl_margin_start">24dp</dimen>
+    <dimen name="tv_icon_margin_start">24dp</dimen>
+    <dimen name="edt_padding_end">32dp</dimen>
+    <dimen name="item_unit_padding">16dp</dimen>
+    <dimen name="item_unit_margin_bot">1dp</dimen>
+    <dimen name="dialog_w">400dp</dimen>
+    <dimen name="dialog_h">200dp</dimen>
+    <dimen name="space_button">16dp</dimen>
+    <dimen name="tv_save_w">60dp</dimen>
+    <dimen name="tv_save_h">24dp</dimen>
+    <dimen name="edt_padding">32dp</dimen>
+
+
 </resources>

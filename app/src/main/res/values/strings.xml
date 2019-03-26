@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">CukCukLite</string>
+    <string name="image_view">ImageView</string>
+    <string name="stop_sell">Ngừng bán</string>
+    <string name="save">Lưu</string>
+    <string name="add_dish">Thêm món</string>
+    <string name="cancel">Hủy</string>
+    <string name="dish_name">Tên món</string>
+    <string name="important">*</string>
+    <string name="hint_dish_name">Nhập tên món</string>
+    <string name="cost">Giá bán</string>
+    <string name="unit">Đơn vị tính</string>
+    <string name="color">Màu sắc</string>
+    <string name="icon">Biểu tượng</string>
+    <string name="menu">Thực đơn</string>
+    <string name="ok">Đồng ý</string>
+    <string name="done">Xong</string>
+    <string name="error_input_unit_empty">Không được bỏ trống đơn vị tính</string>
+    <string name="error_unit_exist">Đơn vị đã tồn tại</string>
 </resources>

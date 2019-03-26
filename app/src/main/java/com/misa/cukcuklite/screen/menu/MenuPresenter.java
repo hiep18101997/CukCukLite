@@ -8,4 +8,9 @@ public class MenuPresenter implements IMenuContract.IPresenter {
     public MenuPresenter(IMenuContract.IView view) {
         mView = view;
     }
+
+    @Override
+    public void getAllDish() {
+
+    }
 }
